@@ -7,6 +7,14 @@
 font-family: 'Roboto', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    padding: 24px 20px;
+    border: 0;
+    cursor: pointer;
+}
 header{
     background-color: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -49,5 +57,40 @@ margin: 30px;
 .banner-description{
     color:  #727272;
 }
+.banner-img{
+    width: 100%;
+    margin-top: 50px;
+}
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px;) {
+header{
+    padding: 20px;
+}
+
+   nav{
+    flex-direction: columns;
+   }
+}
+
+@media screen and {(min-width: 576px;) and (mix-width: 993px;)
+    header{
+        padding: 50px;
+    
+    }
+nav{
+    flex-direction: column;
+}
+
+
+}
 
