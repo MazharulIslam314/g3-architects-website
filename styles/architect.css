@@ -1,0 +1,53 @@
+/* Work sans styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+    width: 1920px;
+    height: 1322px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+   display: flex;
+   font-size: 18px;
+   font-weight: 500;
+}
+nav li{
+    list-style: none;
+    /* display: grid;
+    grid-template-rows: 1em; */
+margin: 30px;
+
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-content{
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+.banner-description{
+    color:  #727272;
+}
+
+
